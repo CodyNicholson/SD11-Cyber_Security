@@ -8,7 +8,9 @@
 		"express": "4.13.4",
 		"sqlite3": "^5.0.2"
 	},
-	"scripts": {},
+	"scripts": {
+		"start": "node app.js"
+	},
 	"eslintConfig": {
 		"extends": []
 	},

@@ -30,6 +30,7 @@ const handleSubmit = e => {
         image:""
       });
       //eval(task.text);
+      // document.getElementsByTagName('body')[0].remove();
     }
   }
 
@@ -70,7 +71,8 @@ const handleSubmit = e => {
         />
       ))}
     </>
-        {/*<div style={{'visibility':'hidden'}} dangerouslySetInnerHTML={{__html: task.image}} />*/}
+        {/* <div style={{'visibility':'hidden'}} dangerouslySetInnerHTML={{__html: task.image}} /> */}
+        {/* <img src="1" onerror="alert('Gotcha!')" /> */}
     </>
   )
 }
