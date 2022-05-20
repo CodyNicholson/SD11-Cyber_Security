@@ -1,0 +1,16 @@
+{
+  "name": "2-cs-mock-hash-done",
+  "version": "1.0.0",
+  "description": "Please refer to the directions in Canvas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "readline-sync": "^1.4.10"
+  }
+}
